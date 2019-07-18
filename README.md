@@ -18,9 +18,9 @@ Slavic and other morphologically rich languages need a special preprocessing ([s
 
 📝 [Czapla, Piotr, Jeremy Howard, and Marcin Kardas. "Universal Language Model Fine-Tuning with Subword Tokenization for Polish." arXiv preprint arXiv:1810.10222 (2018).](https://arxiv.org/abs/1810.10222)
 
-## ULMFiT Language Model for the Czech
+## ULMFiT Language Model for the Czech Language
 
-I have trained ULMFit on Czech Wikipedia as a hobby project. To my knowledge, this is **the first ULMFit language model for Czech**.
+I have trained ULMFit on Czech Wikipedia as a hobby project. To my knowledge, this is **the first ULMFit language model for Czech language**.
 
 Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb)
 
