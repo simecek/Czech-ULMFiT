@@ -20,11 +20,13 @@ Slavic and other morphologically rich languages need a special preprocessing ([s
 
 ## ULMFiT Language Model for the Czech
 
+I have trained ULMFit on Czech Wikipedia as a hobby project. To my knowledge, this is **the first ULMFit language model for Czech**.
+
 Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb)
 
 Weights: [cs_wt.pth](https://drive.google.com/open?id=14b5x5r3x5MeZNZ8Uc4L3ZmiHAiDgKNj2), [cs_wt_vocab.pkl](https://drive.google.com/open?id=1NZym3XfEWAGJ7L3O56Zk2er6bwjKdJGe), [spm.model](language_model/spm.model), [spm.vocab](language_model/spm.vocab)
 
-To my knowledge, this is **the first ULMFit language model for Czech**. With P4 Tesla GPU and Google Cloud virtual machine specified [here](https://course.fast.ai/start_gcp.html), the training took ~28 hours. I was closely following the recent [ULMFit lecture from fast.ai NLP course](https://www.youtube.com/watch?v=MDX_x6rKXAs&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=10).
+With P4 Tesla GPU and Google Cloud virtual machine specified [here](https://course.fast.ai/start_gcp.html), the training took ~28 hours. I was closely following the recent [ULMFit lecture from fast.ai NLP course](https://www.youtube.com/watch?v=MDX_x6rKXAs&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=10).
 
 ## Experiments
 
