@@ -1,16 +1,8 @@
 # ULMFiT for Czech
 
-## Intro
-
-To paraphrase a [Machine Learning Explained](https://mlexplained.com/2019/06/30/paper-dissected-xlnet-generalized-autoregressive-pretraining-for-language-understanding-explained/) blog: 2018 was an NLP breakthrough year. Most of the advances centered around **language modeling** and **transfer learning**. 
-
-**Language modeling** is a fancy word for the task of predicting the next word in a sentence given all previous words. The advantage is that you can train a language model on a large unlabeled corpus, such as Wikipedia.
-
-You can then try to **transfer** the collected knowledge to another task, like text classification.  
-
 ## ULMFiT
 
-ULMFiT paper appeard in January 2018 and was the pioneer of this trend. ULMFit runs in three steps: *first*, train a language model, *then* fine-tune it to a specific task and *finally* use the fine-tuned model for the final prediction. The method is described in the following paper and implemented in [fastai package](https://docs.fast.ai/).
+ULMFiT paper appeard in January 2018 and pioneered **transfer learning** for NLP data. ULMFit runs in three steps: *first*, train a language model, *then* fine-tune it to a specific task and *finally* use the fine-tuned model for the final prediction. The method is described in the following paper and implemented in [fastai package](https://docs.fast.ai/).
 
 📝 [Howard, Jeremy, and Sebastian Ruder. "Universal language model fine-tuning for text classification." arXiv preprint arXiv:1801.06146 (2018).](https://arxiv.org/abs/1801.06146)
 
