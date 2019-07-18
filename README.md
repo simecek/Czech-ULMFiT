@@ -2,7 +2,7 @@
 
 ## ULMFiT
 
-ULMFiT paper appeard in January 2018 and pioneered **transfer learning** for NLP data. ULMFit runs in three steps: *first*, train a language model, *then* fine-tune it to a specific task and *finally* use the fine-tuned model for the final prediction. The method is described in the following paper and implemented in [fastai package](https://docs.fast.ai/).
+ULMFiT paper appeard in January 2018 and pioneered **transfer learning** for NLP data. ULMFiT runs in three steps: *first*, train a language model, *then* fine-tune it to a specific task and *finally* use the fine-tuned model for the final prediction. The method is described in the following paper and implemented in [fastai package](https://docs.fast.ai/).
 
 📝 [Howard, Jeremy, and Sebastian Ruder. "Universal language model fine-tuning for text classification." arXiv preprint arXiv:1801.06146 (2018).](https://arxiv.org/abs/1801.06146)
 
@@ -12,13 +12,13 @@ Slavic and other morphologically rich languages need a special preprocessing ([s
 
 ## ULMFiT Model for the Czech Language
 
-I have trained ULMFit on Czech Wikipedia as a hobby project. To my knowledge, this is **the first ULMFit model for Czech language**.
+I have trained ULMFiT on Czech Wikipedia as a hobby project. To my knowledge, this is **the first ULMFiT model for Czech language**.
 
 Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb)
 
 Weights: [cs_wt.pth](https://drive.google.com/open?id=14b5x5r3x5MeZNZ8Uc4L3ZmiHAiDgKNj2), [cs_wt_vocab.pkl](https://drive.google.com/open?id=1NZym3XfEWAGJ7L3O56Zk2er6bwjKdJGe), [spm.model](language_model/spm.model), [spm.vocab](language_model/spm.vocab)
 
-With P4 Tesla GPU and Google Cloud virtual machine specified [here](https://course.fast.ai/start_gcp.html), the training took ~28 hours. I was closely following the recent [ULMFit lecture from fast.ai NLP course](https://www.youtube.com/watch?v=MDX_x6rKXAs&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=10).
+With P4 Tesla GPU and Google Cloud virtual machine specified [here](https://course.fast.ai/start_gcp.html), the training took ~28 hours. I was closely following the recent [ULMFiT lecture from fast.ai NLP course](https://www.youtube.com/watch?v=MDX_x6rKXAs&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=10).
 
 ## Experiments
 
@@ -38,8 +38,8 @@ Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb) (same as for langua
 
 This repo is a little dwarf standing on the shoulder of giants. Let me thank at least a few of them:
 
-* Jeremy Howard, Rachel Thomas and the whole fast.ai team for ULMFit developement and making an addition of new languages super simple with the last fastai version. Also, Piotr Czapla for subword tokenization idea and the Polish ULMFit model.
+* Jeremy Howard, Rachel Thomas and the whole fast.ai team for ULMFiT developement and making an addition of new languages super simple with the last fastai version. Also, Piotr Czapla for subword tokenization idea and the Polish ULMFiT model.
 
-* Karla Fejfarova for introducing me to ULMFit a year ago. Katerina Veselovska for a motivation after her recent NLP talk at ML meetup in Brno.
+* Karla Fejfarova for introducing me to ULMFiT a year ago. Katerina Veselovska for a motivation after her recent NLP talk at ML meetup in Brno.
 
 * Google for free Google Cloud credits.
