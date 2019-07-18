@@ -20,17 +20,15 @@ Slavic and other morphologically rich languages need a special preprocessing ([s
 
 ## ULMFiT Language Model for the Czech
 
-Notebook(s):
+Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb)
 
-* 
-
-Weights: [cs_wt.pth](), [cs_wt_vocab.pkl]()
+Weights: [cs_wt.pth](https://drive.google.com/open?id=14b5x5r3x5MeZNZ8Uc4L3ZmiHAiDgKNj2), [cs_wt_vocab.pkl](https://drive.google.com/open?id=1NZym3XfEWAGJ7L3O56Zk2er6bwjKdJGe), [spm.model](language_model/spm.model), [spm.vocab](language_model/spm.vocab)
 
 To my knowledge, this is **the first ULMFit language model for Czech**. With P4 Tesla GPU and Google Cloud virtual machine specified [here](https://course.fast.ai/start_gcp.html), the training took ~28 hours. I was closely following the recent [ULMFit lecture from fast.ai NLP course](https://www.youtube.com/watch?v=MDX_x6rKXAs&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&index=10).
 
 ## Experiments
 
-The experiments are still a work in progress (help needed! do you know any good Czech sentiment benchmark?). I have found a couple of datasets in the following paper: 
+The experiments are still a work in progress (*help needed! do you know any good Czech sentiment benchmark?*). I have found a couple of datasets in the following paper: 
 
 📝 [Habernal, Ivan, Tomáš Ptáček, and Josef Steinberger. "Sentiment analysis in czech social media using supervised machine learning." Proceedings of the 4th workshop on computational approaches to subjectivity, sentiment and social media analysis. 2013.](https://www.aclweb.org/anthology/W13-1609)
 
@@ -40,9 +38,7 @@ As a proof of concept, I have performed sentiment classification of ~60K Czech m
 
 1) **CSFD movie dataset**: 91,381 movie reviews (30,897 positive, 30,768 neutral, and 29,716 negative reviews) from the [Czech Movie Database](https://www.csfd.cz/). In this first experiment, I omitted neutral reviews and made a classifier of positive vs. negative reviews only (90% used for training, 10% for validation). The achieved accuracy was **94.5%**. 
 
-Notebook(s):
-
-* (same as language model training)
+Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb) (same as for language model training)
 
 ## Acknowledgments
 
