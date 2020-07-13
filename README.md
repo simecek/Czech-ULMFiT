@@ -32,7 +32,12 @@ As a proof of concept, I have performed sentiment classification of ~60K Czech m
 
 1) **CSFD movie dataset**: 91,381 movie reviews (30,897 positive, 30,768 neutral, and 29,716 negative reviews) from the [Czech Movie Database](https://www.csfd.cz/). In this first experiment, I omitted neutral reviews and made a classifier of positive vs. negative reviews only (90% used for training, 10% for validation). The achieved accuracy was **94.5%**. 
 
-Notebook(s): [nn-czech.ipynb](language_model/nn-czech.ipynb) (same as for language model training)
+*Notebook*: [nn-czech.ipynb](language_model/nn-czech.ipynb) (same as for language model training)  
+
+*Colab*: [CSFD_retrained_colab.ipynb](https://colab.research.google.com/drive/1kL667_alUjFU9La3yZxqClf4LOFiUeyr?usp=sharing) This demonstrates how to fine-tune the language model for classification (here - the sentiment of movie reviews). I have saved the final sentiment classifier with 94.5% accuracy can be downloaded as [cs_csfd_2classes_945.pkl](https://drive.google.com/file/d/1YkWI4TWioeuMVXxTUGn5UDsyl_XWjIh1/view?usp=sharing). The training was done on [Colab Pro](https://colab.research.google.com/signup), Tesla P100-PCIE-16GB GPU. 
+
+*Demo*: [CSFD_retrained_colab.ipynb](https://colab.research.google.com/drive/1IAWBejZWvXDUirxA8RpBlV1sH3Mv8Uka?usp=sharing) For users just interested in sentiment analysis, this is a no-fuss demo how to setup the environment, load the model and get a sentiment prediction for a given text.
+
 
 ## Acknowledgments
 
