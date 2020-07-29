@@ -38,6 +38,7 @@ As a proof of concept, I have performed sentiment classification of ~60K Czech m
 
 *Demo*: [CSFD_demo.ipynb](https://colab.research.google.com/drive/1IAWBejZWvXDUirxA8RpBlV1sH3Mv8Uka?usp=sharing) For users just interested in sentiment analysis, this is a no-fuss demo how to setup the environment, load the model and get a sentiment prediction for a given text.
 
+*Web app*: I reshaped the demo script into a simple web app, the code is living in [detektor_slunickovosti](https://github.com/simecek/detektor_slunickovosti) repo (in Czech).
 
 ## Acknowledgments
 
